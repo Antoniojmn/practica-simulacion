@@ -1,0 +1,17 @@
+body {
+	background-image: url('/img/fondo.jpg'); /* Ruta relativa a tu imagen */
+	background-size: cover; /* Para que la imagen cubra todo el fondo */
+	background-position: center; /* Centrar la imagen */
+	background-repeat: no-repeat; /* No repetir la imagen */
+	margin: 0;
+	overflow: hidden;
+  }
+
+#esfera {
+	display: none;
+	height: 100px;
+	left: -100px;
+	position: absolute;
+	top: 50px;
+	width: 100px;
+}

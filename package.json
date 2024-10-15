@@ -1,0 +1,28 @@
+{
+  "name": "protector",
+  "version": "1.0.0",
+  "description": "Protector de pantallas distribuido",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omiguelperez/protector.git"
+  },
+  "author": "Oscar Pérez <oscarperez0196@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omiguelperez/protector/issues"
+  },
+  "homepage": "https://github.com/omiguelperez/protector#readme",
+  "dependencies": {
+    "express": "^4.21.1",
+    "socket.io": "^1.7.4",
+    "swig": "^1.4.2",
+    "underscore": "^1.8.3",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {}
+}
